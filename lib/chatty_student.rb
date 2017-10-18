@@ -7,11 +7,11 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    super
-    super
-    super
-    super
-    super
+    i = 1
+    for (i <=5)
+      super
+      i +=1
+    end
   end
 
 
